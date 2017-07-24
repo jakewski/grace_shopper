@@ -7,5 +7,6 @@ router.use(function (req, res, next) {
 });
 
 router.use('/users', require('./users')); // matches all requests to /api/users/
+router.use('/login', require('./login'));
 
 module.exports = router;
