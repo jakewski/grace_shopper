@@ -1,0 +1,33 @@
+{
+  "name": "grace_shopper",
+  "version": "1.0.0",
+  "description": "just a lil ecommerce",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -w & nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jakub, raj, ann marie, rick",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.3.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "morgan": "^1.8.2",
+    "pg": "^7.0.2",
+    "pg-hstore": "^2.3.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.2",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "sequelize": "^4.4.2"
+  }
+}
